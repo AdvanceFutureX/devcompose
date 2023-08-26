@@ -1,0 +1,26 @@
+{
+  "name": "devcompose",
+  "version": "1.0.0",
+  "description": "It is a cli utility to setup a local environment for testing and development",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test",
+    "build": "npx tsc"
+  },
+  "keywords": [
+    "test",
+    "dev",
+    "cli"
+  ],
+  "author": "bhargavjagan",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^11.0.0",
+    "figlet": "^1.6.0"
+  },
+  "devDependencies": {
+    "@types/figlet": "^1.5.6",
+    "@types/node": "^20.5.6",
+    "typescript": "^5.2.2"
+  }
+}
